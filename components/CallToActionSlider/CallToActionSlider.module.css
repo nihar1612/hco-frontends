@@ -1,0 +1,7 @@
+.inputRange::-webkit-slider-thumb {
+  @apply w-6 h-6 bg-white rounded-full appearance-none cursor-pointer;
+}
+
+.inputRange::-webkit-slider-thumb:hover {
+  @apply bg-dawnDark-200;
+}

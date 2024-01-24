@@ -1,0 +1,5 @@
+.animated {
+  width: 0;
+  transition: width 0.5s;
+  transition-timing-function: cubic-bezier(0.8, 0, 0.2, 1);
+}

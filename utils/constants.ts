@@ -1,0 +1,10 @@
+export const SLUG_KEY = 'page';
+export const TRIAL_KEY = 'trial';
+export const QUESTIONNAIRE_LOCALSTORAGE_KEY = 'questionnaire-answers';
+export const SIGNUP_USER_DATA_KEY = 'signup-user-data';
+export const CTA_AB_TEST_COOKIE = 'cta_test';
+export const HOME_HERO_TEST_COOKIE = 'home_hero_test';
+export const HOME_HERO_TEST_2_COOKIE = 'home_hero_test_2';
+export const NO_TRIAL_TEST_COOKIE = 'no_trial_test';
+export const NO_TRIAL_TEST_2_COOKIE = 'no_trial_test_2';
+export const STRIPE_CUSTOMER_PORTAL_SESSION_LOCALSTORAGE_KEY = 'stripe-customer-portal-session';

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Home Hero Experiment 2",
+    "id": "uyOYA_PUTPKdhVq_8pGUCQ",
+    "cookie": "home_hero_test_2",
+    "urls": ["^/$"],
+    "active": false,
+    "variants": [
+      {
+        "name": "Say Goodbye to Tossing and Turning",
+        "metadata": {
+          "gradientText": ".",
+          "subtitle": "Sleep soundly with expert Care from specialty sleep therapists."
+        },
+        "id": 0,
+        "weight": 50
+      },
+      {
+        "name": "Start Sleeping.",
+        "metadata": {
+          "gradientText": "Defeat Insomnia.",
+          "subtitle": "Conquer your sleep issues with a program built for your needs. Dawn delivers calls, chats and sleep resources wherever and whenever you need them, all from the convenience of your phone."
+        },
+        "id": 1,
+        "weight": 50
+      }
+    ]
+  },
+  {
+    "name": "Questionnaire Experiment",
+    "cookie": "questionnaire_test_1",
+    "id": "none",
+    "active": true,
+    "urls": ["^/$", "/questionnaire"],
+    "urlBased": true,
+    "variants": [
+      {
+        "name": "signup-v5",
+        "id": 0,
+        "weight": 80
+      },
+      {
+        "name": "signup-v4",
+        "id": 1,
+        "weight": 20
+      }
+    ]
+  }
+]
